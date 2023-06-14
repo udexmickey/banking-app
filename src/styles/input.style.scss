@@ -1,0 +1,35 @@
+
+.input-group-text {
+    background-color: transparent;
+}
+.card_number, .card_cvv{
+    border-right: transparent;
+}
+
+::-webkit-inner-spin-button{
+    display: none;
+}
+
+.card_cvv{
+    text-align: center;
+    &:placeholder-shown{
+        text-align: center;
+    }
+}
+
+.input{
+    height: 60px;
+    width: 40%;
+    text-align: center;
+}
+
+.expire_date_input_col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    border-radius: 20px;
+    height: 60px;
+}

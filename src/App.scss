@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/bootstrap';
+@import "custom";
+@import './styles/main.scss';
+// @import './styles/input.style.scss';
+// @import './styles/form.style.scss';
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
+
